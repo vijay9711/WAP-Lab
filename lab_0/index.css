@@ -2,12 +2,8 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-}
-.content{
-  display: flex;
   align-items: center;
   flex-direction: column;
-  margin: auto;
 }
 .me{
   display: flex;
@@ -15,7 +11,6 @@
   align-items: center;
 }
 .me img{
-
   box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
   -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
@@ -28,26 +23,12 @@
 }
 .me img:hover{
   box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
 }
 .lab-list{
   width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-}
-.lab{
-  width: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-self: center;
-  text-decoration: none;
-}
-.lab span{
-  color: black;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-family: system-ui;
 }
