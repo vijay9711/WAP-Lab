@@ -28,7 +28,14 @@
 }
 .lab-list{
   width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
+}
+.validator-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.validator-img img{
+  width: 150px;
 }
