@@ -1,0 +1,104 @@
+body{
+  background-color: #323232;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.container-wrapper{
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+}
+.title{
+  font-size: 4vw;
+  color: #0277BD;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+}
+.sub-title{
+  font-size: 2vw;
+}
+.typewrite{
+  color: #FDD835;
+}
+.content{
+  font-size: 1vw;
+}
+.my-classess{
+  border: none;
+}
+.classes-list{
+  position: relative;
+  /* display: flex; */
+
+}
+.my-mood-list{
+  display: flex;
+  margin-top: 10px;
+}
+.my-mood-list > div{
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.my-mood-list > div > p {
+  margin: 0;
+  margin-top: 5px;
+}
+.mood{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.moood img{
+  /* width: 100%;
+  height: 100%; */
+}
+.my-mood{
+  font-size: 3vw;
+  color: #0277BD;
+}
+.back-to{
+  padding: 5px;
+  width: 20px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #0277BD;
+  border: none;
+  text-decoration: none;
+  color: #323232;
+  margin-left: auto;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  font-size: 1.5vw;
+}
+/* .card{
+  background-color: rgba(0,0,0,.7);
+  border-radius: 24px;
+  font-size: 1vm;
+  width: 10%;
+  height: 10vh;
+  transform: rotateX(60deg) rotateZ(45deg);
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto; 
+   padding: 10px; 
+}*/
+/* .card:hover{
+  width:50%;
+  height: 30vh;
+  position: absolute;
+  margin: auto;
+  transform: rotateX(0) rotateZ(0);
+}
+
+.card-title{
+text-align:center;
+font-size:24px;
+color:white;
+}  */

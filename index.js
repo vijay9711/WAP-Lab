@@ -1,13 +1,8 @@
 const labList = [
   {
-    name:"lab_0",
+    name:"lab_1",
     id: 0,
     path:'./lab_0/index.html'
-  },
-  {
-    name:"lab_1",
-    id: 1,
-    path:'./lab_1/index.html'
   },
   {
     name:"lab_2",
