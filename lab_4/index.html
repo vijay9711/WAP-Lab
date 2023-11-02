@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="form-wrapper">
+    <div class="form-box">
+      <div class="form-title">
+        <p>Workshop registration</p>
+        <div class="">
+          <select class="more-action" name="section" id="actions">
+            <option value="ac">More Action</option>
+          </select>
+        </div>
+        <div class="go-back">
+         <a href="../index.html"> &lt&lt Back</a>
+        </div>
+      </div>
+      <div class="form-content">
+        <form class="main-form">
+          <div class="left-form">
+            <p class="form-inner-title">Register now while seats are available!</p>
+            <div class="form-text-input">
+              <label for="firstName">First name<span class="mandatory">*</span></label>
+              <input type="text" name="firstName">
+            </div>
+            <div class="form-text-input">
+              <label for="lastName">Last name<span class="mandatory">*</span></label>
+              <input type="text" name="lastName" >
+            </div>
+            <div class="form-text-input">
+              <label for="comp/ints">Company/institution<span class="mandatory">*</span></label>
+              <input type="text" name="comp/ints">
+            </div>
+            <div class="form-text-input">
+              <label for="address">Address<span class="mandatory">*</span></label>
+              <textarea type="text" name="address" rows="5"></textarea>
+            </div>
+            <div class="form-text-input">
+              <label for="city">City</label>
+              <input type="text" name="city">
+            </div>
+            <div class="form-text-input">
+              <label for="state">State/Province/Region</label>
+              <select class="form-select" name="section" id="actions" value="">
+                <option value="ac">Select</option>
+              </select>
+            </div>
+            <div class="form-text-input">
+              <label for="state">Country</label>
+              <select class="form-select" name="section" id="actions" value="">
+                <option value="ac">Select</option>
+              </select>
+            </div>
+            <div class="form-text-input">
+              <label for="firstName">Email<span class="mandatory">*</span></label>
+              <input type="text" name="firstName">
+            </div>
+            <div class="form-text-input">
+              <label for="lastName">Phone Number<span class="mandatory">*</span></label>
+              <input type="text" name="lastName" >
+            </div>
+          </div>
+          <div class="right-form">
+            <p class="form-inner-title">Lunch</p>
+            <div class="form-text-input">
+              <label for="state">Meal preference</label>
+              <select class="form-select" name="section" id="actions" value="">
+                <option value="ac">Select</option>
+              </select>
+            </div>
+            <p class="form-inner-title">Payment details</label>
+            <div class="form-text-input">
+              <label>Payment Mode</label>
+              <div class="payment-meth">
+                <div>
+                  <label for="cash">Cash</label>
+                  <input type="checkbox" name="cash">
+                </div>
+                <div>
+                  <label for="cheque">Cheque</label>
+                  <input type="checkbox" name="cheque">
+                </div>
+                <div>
+                  <label for="demandDraft">Demand Draft</label>
+                  <input type="checkbox" name="demandDraft">
+                </div>
+              </div>
+            </div>
+            <div class="form-text-input">
+              <label for="ddCheque">DD/cheque No.</label>
+              <input type="text" name="ddCheque">
+            </div>
+            <div class="form-text-input">
+              <label for="drawnOn">Drawn On(Bank name)</label>
+              <input type="text" name="drawnOn">
+            </div>
+            <div class="form-text-input">
+              <label for="payable">Payable at</label>
+              <input type="text" name="payable">
+            </div>
+          </div>
+        </form>
+        <div class="foot">
+          <button class="cancel">Cancel</button>
+          <button class="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

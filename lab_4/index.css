@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+.form-wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-box{
+  border-radius: 5px;
+  width: 60vw;
+  box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+.form-title{
+  background-color: #002c56;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 6vh;
+  color: #ffffff;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  padding: 0px 1.5vw;
+}
+.more-action{
+  background: transparent;
+  border: transparent;
+  color: #fff;
+  margin-left: 2vw;
+}
+.form-content{
+  padding: 0vw;
+}
+.form-inner-title{
+  text-decoration: underline;
+}
+.form-text-input{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vw 0px;
+  align-items: baseline;
+}
+.form-text-input input, textarea, select{
+  border-radius: 5px;
+  box-shadow: #002c56;
+  border: 1px solid;
+  height: 1.5vw;
+  align-items: center;
+  width: 10vw;
+}
+.form-text-input input[type = 'checkbox']{
+  width: 1vw;
+}
+
+textarea{
+  height: auto;
+}
+.form-text-input select{
+  width: 10.4vw;
+}
+.mandatory{
+  color: #bf4623;
+}
+.right-form, .left-form{
+  width: 50%;
+  margin: 0px 2vw;
+}
+.main-form{
+  width: 100%;
+  display: flex;
+}
+.payment-meth{
+  display: flex;
+  flex-direction: column;
+}
+.payment-meth div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot{
+  height: 5vh;
+  display: flex;
+  padding: 1vh 1vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.foot button{
+  margin-left: 2vw;
+  padding: .5vw;
+  width: 6vw;
+  cursor: pointer;
+}
+.foot .cancel{
+  border:none;
+  border-radius: 5px;
+  outline: none;
+  color: #002c56;
+}
+.foot .submit{
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  background-color: #002c56;
+}
+.go-back{
+  margin-left: auto;
+}
+.go-back a{
+  height: 2vh;
+  color: #ffffff;
+  margin-left: auto;
+  cursor: pointer;
+}
