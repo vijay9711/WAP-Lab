@@ -33,3 +33,6 @@ function concat(s,a1,a2){
   let res = [...s,...a1,...a2];
   document.getElementById('concat').innerText = res;
 }
+
+let stu = [1,2,3,4,5,5];
+stu.indexOf(2);
