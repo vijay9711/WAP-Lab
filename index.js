@@ -34,6 +34,11 @@ const labList = [
     id: 7,
     path:'./lab_7/index.html'
   },
+  {
+    name:"lab_8",
+    id: 8,
+    path:'./lab_8/index.html'
+  },
 ]
 window.onload = () => {
   labList.map(item => {
