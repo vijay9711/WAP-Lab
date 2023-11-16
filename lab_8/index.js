@@ -89,3 +89,20 @@ function grade(){
   console.log(student1.computeAverage());
   console.log(student2.computeAverage());
 }
+
+// function foo() {
+//   console.log(this);
+// }
+
+// const baz = (a) =>  console.log(this, a);
+// // foo.call('123');
+// baz.apply(this,[null,'b']);
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var countHomogenous = function(s) {
+  console.log(s);
+};
+countHomogenous('zzzzz');
