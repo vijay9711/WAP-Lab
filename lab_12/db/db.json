@@ -1,0 +1,23 @@
+[
+  {
+    "user": [
+      {
+        "firstname": "Vijay",
+        "lastname": "M",
+        "email": "vijaysm97@gmail.com"
+      },
+      {
+        "id": "12",
+        "model": "fury74",
+        "quantity": "3"
+      }
+    ],
+    "product": [
+      {
+        "id": "1",
+        "model": "12334",
+        "quantity": "4"
+      }
+    ]
+  }
+]
