@@ -1,0 +1,21 @@
+GET http://localhost:3000/book/
+
+###
+
+GET http://localhost:3000/book/1
+
+###
+
+POST http://localhost:3000/book/
+Content-Type: application/json
+
+{
+  "title":"Python",
+  "author": "Jhon ",
+  "quantity": 3
+}
+
+###
+
+
+DELETE http://localhost:3000/book/2
